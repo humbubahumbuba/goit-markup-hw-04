@@ -12,6 +12,7 @@ footer #2F303A*/
   --primary-bg-color: #ffffff;
   --button-accent-color: #188ce8;
   --button-bg-color: #f5f4fa;
+  --primary-link-color: #afb1b8;
   --card-set-gap: 30px;
   --card-shadow: rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -158,9 +159,9 @@ ol {
   color: var(--accent-color);
 }
 
-.site-nav .link.current {
+/* .site-nav .link.current {
   color: var(--accent-color);
-}
+} */
 
 .auth-nav .item {
   display: flex;
@@ -169,8 +170,8 @@ ol {
 }
 .icon-envelope {
   margin-right: 10px;
-  width: 16px;
-  height: 12px;
+  /* width: 16px;
+  height: 12px; */
 }
 .icon-smartphone {
   margin-right: 10px;
@@ -194,7 +195,7 @@ ol {
   letter-spacing: 0.02em;
 }
 .contact-icon {
-  fill: #757575;
+  fill: currentColor;
 }
 .auth-nav-link:hover,
 .auth-nav-link:focus {
@@ -213,16 +214,19 @@ ol {
   height: 12px;
 } */
 /* ==================hero================== */
+
+/* padding-bottom: 200px;
+  padding-top: 200px; */
+/* height: 600px; */
+
+/* outline: 2px solid red; */
+/* background-color: #2f303a; */
+/* text-align: center; */
+
 .hero {
   padding-bottom: 200px;
   padding-top: 200px;
-  /* height: 600px; */
-
-  /* outline: 2px solid red; */
-  background-color: #2f303a;
   text-align: center;
-}
-.overlay {
   height: 600px;
   max-width: 1600px;
   margin-left: auto;
@@ -417,7 +421,7 @@ padding-left: 15px;
   padding: 30px 0;
 }
 .social-list-icon {
-  fill: #afb1b8;
+  fill: currentColor;
   width: 20px;
   height: 20px;
 }
@@ -428,16 +432,15 @@ padding-left: 15px;
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  color: var(--primary-link-color);
   background-color: #ffffff;
 }
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--accent-color);
+  color: var(--primary-bg-color);
 }
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: #ffffff;
-}
+
 .social-list {
   display: flex;
   justify-content: center;
@@ -447,11 +450,11 @@ padding-left: 15px;
 /* =============clients============= */
 .client-box {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 
   column-gap: 30px;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 
 .clients {
@@ -462,21 +465,29 @@ padding-left: 15px;
   height: 92px;
   width: 170px;
   border: 1px solid #afb1b8;
-  fill: #afb1b8;
+  fill: currentColor;
 }
-.client-list {
+/* .client-list {
   display: flex;
   align-items: center;
   justify-content: center;
+} */
+.clients-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 92px;
+  width: 170px;
+  border: 1px solid #afb1b8;
+  color: var(--primary-link-color);
+  fill: currentColor;
 }
 .clients-link:hover,
 .clients-link:focus {
   border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
 }
-.clients-link:hover .clients-logo,
-.clients-link:focus .clients-logo {
-  fill: var(--button-accent-color);
-}
+
 .clients-title {
   margin-bottom: 50px;
 
