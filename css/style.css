@@ -689,13 +689,7 @@ padding-left: 15px;
 }
 
 .join {
-  /* display: flex;
-  flex-wrap: wrap;
-  align-items: baseline; */
   margin-left: 70px;
-  /* padding-top: 72px; */
-  /* width: 206px;
-  height: 80px; */
 }
 .join-title {
   margin-bottom: 20px;
@@ -716,9 +710,6 @@ padding-left: 15px;
 .join-list-item {
   display: flex;
   justify-content: center;
-
-  /* width: 20px;
-  height: 20px; */
 }
 .join-list-link {
   display: flex;
